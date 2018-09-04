@@ -1,6 +1,6 @@
 ---
 
-- hosts: local.yml
+- hosts: test
   gather_facts: no
   become: yes
   tasks:
