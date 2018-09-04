@@ -1,0 +1,7 @@
+---
+
+- hosts: local.yml
+  gather_facts: no
+  become: yes
+  tasks:
+  - file: path=/home/ansible/demo.txt state=touch
